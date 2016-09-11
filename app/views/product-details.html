@@ -12,13 +12,13 @@
 
         <div class="product-variation clearfix">
             <select name="" class="size">
-                <option value="">SIZE</option>
+                <option value="">SIZE : {{data.p_selected_size.name}}</option>
                 {% for size in data.p_available_options.sizes%}
                 <option value="{{size.code}}">{{size.name}}</option>
                 {% endfor %}
             </select>
             <select name="" id="qty" class="qty">
-                <option value="">QTY</option>
+                <option value="">QTY : {{data.p_quantity}}</option>
                 {% for qty in data.p_available_options.qty%}
                 <option value="{{qty}}" >{{qty}}</option>
                 {% endfor %}
