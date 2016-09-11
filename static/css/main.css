@@ -307,7 +307,8 @@ table {
     display: inline-block; }
 .product-detail .product-variation {
   width: 246px;
-  margin: 0px auto; }
+  margin: 0px auto;
+  text-align: center; }
   .product-detail .product-variation select {
     margin-right: 10px; }
   .product-detail .product-variation select:last-child {
